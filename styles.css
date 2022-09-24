@@ -130,7 +130,7 @@ hr {
 }
 
 .owner > p {
-  color: var(--clr-line);
+  color: var(--clr-soft-blue);
   font-family: Outfit;
   font-weight: 400;
   font-size: 1rem;
