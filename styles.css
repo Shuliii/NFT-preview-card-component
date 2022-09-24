@@ -73,7 +73,7 @@ body {
 }
 
 .wrapper > p {
-  color: var(--clr-line);
+  color: var(--clr-soft-blue);
   font-family: Outfit;
   font-weight: 300;
   font-size: 1.125rem;
@@ -105,7 +105,7 @@ body {
 }
 
 .time-placeholder > p {
-  color: var(--clr-line);
+  color: var(--clr-soft-blue);
   font-family: Outfit;
   font-weight: 400;
   font-size: 1rem;
