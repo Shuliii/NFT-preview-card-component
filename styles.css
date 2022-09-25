@@ -54,7 +54,8 @@ body {
   background-image: url("./img/image-equilibrium.jpg"),
     url("./img/icon-view.svg");
   background-color: var(--clr-cyan-opacity);
-  background-size: cover;
+  background-size: cover, auto;
+  background-position: center, center;
   background-blend-mode: overlay;
 }
 
@@ -127,6 +128,8 @@ hr {
 .owner > img {
   width: 2.0625rem;
   height: 100%;
+  border: 1px solid white;
+  border-radius: 100%;
 }
 
 .owner > p {
@@ -145,4 +148,17 @@ hr {
 .white:hover {
   cursor: pointer;
   color: var(--clr-cyan);
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 20.4375rem;
+    height: 33.9375rem;
+  }
+
+  .images {
+    width: 278px;
+    height: 278px;
+    background-size: cover;
+  }
 }
